@@ -1,0 +1,65 @@
+:root {
+    /* 将原本的橙色改为复古铜色 */
+    --primary: #b87333;        /* 经典的亮铜色 */
+    --primaryLight: #d4a76a;   /* 浅金色/浅铜色 */
+    --secondary: #5d4037;      /* 深咖啡/木质色，适合酒馆氛围 */
+    
+    --headerColor: #1a1a1a;
+    --bodyTextColor: #4e4b66;
+    --bodyTextColorWhite: #fafbfc;
+
+    /* 保持原有的字体大小变量不变 */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+
+    --headingFont: 'Playfair Display', serif;
+    --bodyFont: 'Lato', Arial, sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--bodyFont);
+}
+
+*, *:before, *:after {
+    /* prevents padding from affecting height and width */
+    box-sizing: border-box;
+}
+.cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.cs-title {
+    font-family: var(--headingFont);
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+}
+
+.cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+}
+                            

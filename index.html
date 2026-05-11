@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Copper Kettle | Historic Melbourne Gastropub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="cs-navigation">
+        <div class="cs-container">
+        <!-- Nav Logo -->
+        <a href="#hero-1785" class="cs-logo" aria-label="Return to The Copper Kettle home page">
+            <img
+                src="images/logo.png"
+                alt="The Copper Kettle Logo"
+                width="210"
+                height="210"
+                decoding="async"
+            >
+        </a>
+
+        <!-- Navigation List -->
+        <nav class="cs-nav" aria-label="main navigation">
+            <!-- Mobile Nav Toggle -->
+            <button 
+                class="cs-toggle" 
+                id="mobile-menu-toggle" 
+                aria-expanded="false" 
+                aria-controls="cs-ul-wrapper" 
+                aria-label="mobile menu toggle" 
+                aria-haspopup="menu"
+            >
+                <span class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1"></span>
+                    <span class="cs-line cs-line2"></span>
+                    <span class="cs-line cs-line3"></span>
+                </span>
+            </button>
+
+            <div class="cs-ul-wrapper" id="cs-ul-wrapper">
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <a href="#hero-1785" class="cs-li-link cs-active" aria-current="page">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="#menu" class="cs-li-link">
+                            Menu
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="#about" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="#visit" class="cs-li-link">
+                            Visit
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="#booking" class="cs-li-link">
+                            Book
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <a href="#booking" class="cs-button-solid cs-nav-button js-booking-open">
+            Book a Table
+        </a>
+    </div>
+    </header>
+    <section id="hero-1785">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">ESTABLISHED 2024</span>
+            
+            <h1 class="cs-title">The Copper Kettle</h1>
+            
+            <p class="cs-text">
+                Enjoy warm Australian kitchen dining with seasonal dishes, cosy interiors, 
+                and a welcoming table made for relaxed lunches, dinners, and special occasions.
+            </p>
+            
+            <div class="cs-button-group">
+                <a href="#booking" class="cs-button-solid js-booking-open">Book a Table</a>
+                <a href="#menu" class="cs-button-solid">View Menu</a>
+            </div>
+        </div>
+    </div>
+
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="images/res.png">
+        <source media="(min-width: 601px)" srcset="images/res.png">
+        <img 
+        loading="lazy" 
+        decoding="async" 
+        src="images/res.png" 
+        alt="The Copper Kettle Interior" 
+        width="1920"
+         height="1080" 
+        >
+    </picture>
+
+    <img 
+    class="cs-graphic" 
+    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-splatter2.svg" 
+    alt="" 
+    height="161" 
+    width="1920" 
+    loading="lazy" 
+    decoding="async" >
+    <img class="cs-graphic cs-graphic-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" 
+    alt="" 
+    height="161" 
+    width="1920" 
+    loading="lazy" 
+    decoding="async" >
+</section>
+
+<!-- ============================================ -->
+<!--                Featured Menu                 -->
+<!-- ============================================ -->
+
+<section id="menu">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Featured Menu</span>
+            <h2 class="cs-title">Seasonal favourites from our Australian kitchen</h2>
+        </div>
+
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="#booking" class="cs-link">
+                    <h3 class="cs-h3">
+                        <span class="cs-span">Copper Kettle</span> Beef Pie
+                    </h3>
+                </a>
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="images/beef.png">
+                    <source media="(min-width: 601px)" srcset="images/beef.png">
+                    <img decoding="async" src="images/beef.png" alt="" width="305" height="305" aria-hidden="true">
+                </picture>
+            </li>
+
+            <li class="cs-item">
+                <a href="#booking" class="cs-link">
+                    <h3 class="cs-h3">
+                        <span class="cs-span">Lemon Myrtle</span> Barramundi
+                    </h3>
+                </a>
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="images/lemon.png">
+                    <source media="(min-width: 601px)" srcset="images/lemon.png">
+                    <img decoding="async" src="images/lemon.png" alt="" width="305" height="305" aria-hidden="true">
+                </picture>
+            </li>
+
+            <li class="cs-item">
+                <a href="#booking" class="cs-link">
+                    <h3 class="cs-h3">
+                        <span class="cs-span">Roasted Pumpkin</span> Risotto
+                    </h3>
+                </a>
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="images/pumpkin.png">
+                    <source media="(min-width: 601px)" srcset="images/pumpkin.png">
+                    <img decoding="async" src="images/pumpkin.png" alt="" width="305" height="305" aria-hidden="true">
+                </picture>
+            </li>
+
+            <li class="cs-item">
+                <a href="#booking" class="cs-link">
+                    <h3 class="cs-h3">
+                        <span class="cs-span">Sticky Date</span> Pudding
+                    </h3>
+                </a>
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="images/pudding.png">
+                    <source media="(min-width: 601px)" srcset="images/pudding.png">
+                    <img decoding="async" src="images/pudding.png" alt="" width="305" height="305" aria-hidden="true">
+                </picture>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--             About Dining Experience           -->
+<!-- ============================================ -->
+
+<section id="about">
+    <div class="cs-container">
+        <!-- Left Content Section -->
+        <div class="cs-content">
+            <span class="cs-topper">Our Dining Experience</span>
+            <h2 class="cs-title">A warm Australian kitchen made for memorable dining</h2>
+            <p class="cs-text">
+                The Copper Kettle brings together seasonal Australian ingredients, warm hospitality, 
+                and a relaxed dining room designed for everyday meals and special occasions.
+            </p>
+
+            <div class="cs-features">
+                <h3 class="cs-h3">What guests can expect:</h3>
+                <ul class="cs-ul">
+                    <li class="cs-li">Seasonal dishes inspired by modern Australian cooking</li>
+                    <li class="cs-li">A cosy copper-toned interior with warm table service</li>
+                    <li class="cs-li">Comfortable dining for lunches, dinners, and celebrations</li>
+                </ul>
+            </div>
+
+            <a class="cs-button-solid" aria-label="view The Copper Kettle menu" href="#menu">
+                View Menu
+            </a>
+        </div>
+
+        <!-- Right Image Section -->
+        <div class="cs-image-group">
+            <!-- Floating Box -->
+            <div class="cs-box">
+                <span class="cs-number">2024</span>
+                <div class="cs-flex">
+                    <h3 class="cs-heading">Opened in Melbourne</h3>
+                    <span class="cs-desc">A fictional Australian kitchen created for relaxed local dining.</span>
+                </div>
+            </div>
+
+            <!-- Image -->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="images/rounding.png">
+                <source media="(min-width: 601px)" srcset="images/rounding.png">
+                <img 
+                    loading="lazy" 
+                    decoding="async" 
+                    src="images/rounding.png" 
+                    alt="Warm interior dining space at The Copper Kettle" 
+                    width="630" 
+                    height="630"
+                >
+            </picture>
+        </div>
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                    Footer                    -->
+<!-- ============================================ -->
+
+<footer id="footer-1147">
+    <div class="cs-container">
+        <div class="cs-top">
+            <a aria-label="go back to The Copper Kettle home page" class="cs-logo" href="#hero-1785">
+                <img 
+                    class="cs-logo-img" 
+                    loading="lazy" 
+                    decoding="async" 
+                    src="images/logo.png" 
+                    alt="The Copper Kettle logo" 
+                    width="168" 
+                    height="168"
+                >
+            </a>
+
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a href="#hero-1785" class="cs-link">Home</a>
+                </li>
+                <li class="cs-li">
+                    <a href="#menu" class="cs-link">Menu</a>
+                </li>
+                <li class="cs-li">
+                    <a href="#about" class="cs-link">About</a>
+                </li>
+                <li class="cs-li">
+                    <a href="#visit" class="cs-link">Visit</a>
+                </li>
+                <li class="cs-li">
+                    <a href="#booking" class="cs-link js-booking-open">Book</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cs-bottom">
+            <ul class="cs-social">
+                <li class="cs-social-li">
+                    <a href="#" class="cs-social-link" aria-label="Facebook" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-white.svg" alt="" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="#" class="cs-social-link" aria-label="Instagram" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-transparent.svg" alt="" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+            </ul>
+
+            <span class="cs-copyright">
+                © 2026 <a href="#hero-1785" class="cs-copyright-link">The Copper Kettle</a>. All Rights Reserved.
+            </span>
+        </div>
+    </div>
+
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="images/res.png">
+        <source media="(min-width: 601px)" srcset="images/res.png">
+        <img 
+            loading="lazy" 
+            decoding="async" 
+            src="images/res.png" 
+            alt="" 
+            width="1280" 
+            height="568"
+        >
+    </picture>
+</footer>
+
+
+<!-- ============================================ -->
+<!--               Booking Popup                  -->
+<!-- ============================================ -->
+
+<div class="booking-popup" id="booking-popup" aria-hidden="true">
+    <div class="booking-popup__overlay js-booking-close"></div>
+
+    <div class="booking-popup__content" role="dialog" aria-modal="true" aria-labelledby="booking-popup-title">
+        <button class="booking-popup__close js-booking-close" type="button" aria-label="Close booking popup">
+            ×
+        </button>
+
+        <span class="cs-topper">Book a Table</span>
+
+        <h2 class="booking-popup__title" id="booking-popup-title">
+            Reserve your table at The Copper Kettle
+        </h2>
+
+        <p class="booking-popup__text">
+            Send us your preferred booking details and our team will confirm your table soon.
+        </p>
+
+        <form class="booking-popup__form" id="booking-form">
+            <label class="booking-popup__label" for="booking-name">Name</label>
+            <input class="booking-popup__input" type="text" id="booking-name" name="name" required>
+
+            <label class="booking-popup__label" for="booking-date">Date</label>
+            <input class="booking-popup__input" type="date" id="booking-date" name="date" required>
+
+            <label class="booking-popup__label" for="booking-time">Time</label>
+            <input class="booking-popup__input" type="time" id="booking-time" name="time" required>
+
+            <label class="booking-popup__label" for="booking-guests">Guests</label>
+            <select class="booking-popup__input" id="booking-guests" name="guests" required>
+                <option value="">Select guests</option>
+                <option value="1">1 guest</option>
+                <option value="2">2 guests</option>
+                <option value="3">3 guests</option>
+                <option value="4">4 guests</option>
+                <option value="5">5 guests</option>
+                <option value="6">6 guests</option>
+            </select>
+
+            <button class="booking-popup__submit" type="submit">
+                Send Booking Request
+            </button>
+
+            <p class="booking-popup__message" id="booking-message" aria-live="polite"></p>
+        </form>
+    </div>
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+                                
