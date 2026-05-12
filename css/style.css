@@ -775,7 +775,7 @@
     box-sizing: border-box;
     padding: 0 1.5rem;
     background-color: var(--primary);
-    color: #1a1a1a;
+    color: #fff;
     display: inline-block;
     position: relative;
     z-index: 1;
